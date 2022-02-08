@@ -38,6 +38,7 @@ nav{
     width: 100%;
     margin: 0 0;
     padding: 2px 2px;
+    /* justify-content: center; */
 }
 
 .contact{
@@ -102,3 +103,30 @@ td{
     justify-content: space-evenly;
 }
 
+@media screen and (min-width: 800px) {
+    
+    .container{
+        justify-content: center;
+
+    }
+    .container h1{
+        font-size: 45px;
+    }
+
+    .contact {
+        font-size: 15px;
+    }
+
+    .tblhead{
+        font-size: 28px;
+    }
+
+    .headi{
+        font-size: 22px;
+    }
+
+    .edu{
+        font-size: 18px;
+    }
+    
+}
